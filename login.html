@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Login e Registro com HTML5 e CSS3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./Front.css" />
+  <script src="../js/login.js" type="module"></script>
+
+</head>
+<body>
+  <div class="container" >
+
+    <div class="content">
+
+	<!--FORMULÁRIO DE LOGIN-->
+	<div id="login">
+			<form method="post" action="">
+			  <h1>Login</h1>
+			  <p>
+				<label for="nome_login">Seu email</label>
+				<input id="nome_login" name="nome_login" required="required" type="text" placeholder="Gaspar"/>
+			  </p>
+			  <p>
+				<label for="senha_login">Sua senha</label>
+				<input id="senha_login" name="senha_login" required="senha_login" type="password" placeholder="ex. senha" />
+			  </p>
+
+			  <p >
+				<input id="loginButton" type="button" value="Logar" />
+			  </p>
+
+			  <p class="link">
+				Ainda não é cadastrado?
+				<a href="cadastro.Html">Cadastre-se</a>
+			  </p>
+			  <p class="link_retorno">
+				<a href="../index.Html"> Home </a>
+				</p>
+			</form>
+		  </div>
+  </div>
+</body>
+</html>
